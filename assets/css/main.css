@@ -1742,8 +1742,11 @@
 				margin: 0 auto;
 				width: auto;
 			}
-
 /* List */
+
+p.portfolio-text{
+	font-size: 12px;
+}
 
 	ul.default {
 		list-style: disc;
