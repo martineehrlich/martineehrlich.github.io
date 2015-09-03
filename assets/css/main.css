@@ -26,6 +26,10 @@
 		font-size: 23px;
 	}
 
+	h2.portfolio {
+		line-height: 0;
+	}
+
 	#logo.clearfix:after{
 		content: "";
 		display: block;
