@@ -26,6 +26,12 @@
 		font-size: 23px;
 	}
 
+	#logo.clearfix:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+
 	li.contact-info{
 		height: 40px;
 		position: relative;
@@ -43,6 +49,10 @@
 	li.contact-info.phone{
 		margin-top: 100px;
 		margin-left: 48px;
+	}
+
+	.contact-info-icon.icon.fa-home{
+		height: 50px;
 	}
 
 	li.contact-info.linked{
@@ -2108,7 +2118,6 @@ ul.portfolio-text{
 		}
 
 		#logo .image {
-			position: absolute;
 			left: 0;
 			top: 0;
 		}
