@@ -24,10 +24,18 @@
 
 	h3.project-header.item{
 		font-size: 23px;
+		margin-bottom: 15px;
 	}
 
 	h2.portfolio {
 		line-height: 0;
+	}
+
+	.about-me-paragraph{
+		margin-bottom: 0px;
+	}
+	p.portfolio-header{
+		margin-bottom: 28px
 	}
 
 	#logo.clearfix:after{
